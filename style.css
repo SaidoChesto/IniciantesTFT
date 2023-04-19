@@ -110,6 +110,10 @@ h3 {
   padding: 10px;
   text-shadow: #463714 0px 2px 6px;
 }
+a {
+  text-decoration: none;
+  color: #F0E6D2;
+}
 .continuar button {
   margin-top: 30px;
   width: 200px;
@@ -140,6 +144,7 @@ h3 {
 .Grid {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1400px;
   justify-content: center;
   gap: 30px;
   padding-bottom: 64px;
@@ -163,6 +168,7 @@ h3 {
 h4 {
   font-family: Spiegel;
   font-size: 22px;
+  font-weight: 400;
 }
 .card button {
   border: none;
