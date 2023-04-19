@@ -75,7 +75,7 @@ h1 {
   background-size: cover;
   background-position: center;
 }
-.titulo {
+.header {
   position: relative;
   max-width: 600px;
   width: 100%;
@@ -85,7 +85,7 @@ h1 {
   height: 120px;
   width: 460px;
 }
-.disclaimer {
+.wrap {
   background-color: #091428;
   max-width: 1000px;
   width: 100%;
@@ -101,7 +101,7 @@ h2 {
 .Terceiro {
   flex-direction: column;
 }
-.continuar {
+.wtf {
   max-width: 820px;
   width: 100%;
 }
@@ -114,7 +114,7 @@ a {
   text-decoration: none;
   color: #F0E6D2;
 }
-.continuar button {
+.wtf button {
   margin-top: 30px;
   width: 200px;
   height: 40px;
@@ -130,7 +130,7 @@ a {
   color: #000;
   font-size: 22px;
 }
-.texto {
+.wrap-explicacao {
   background-color: #091428;
   max-width: 1000px;
   width: 100%;
@@ -141,7 +141,7 @@ a {
 .Quinto {
   height: 710px;
 }
-.Grid {
+.tabela {
   display: flex;
   flex-wrap: wrap;
   max-width: 1400px;
@@ -152,7 +152,6 @@ a {
 .card {
   padding: 16px;
   margin: 16px;
-  height: 250px;
   width: 250px;
   display: flex;
   flex-direction: column;
